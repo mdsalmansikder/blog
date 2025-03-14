@@ -1,0 +1,227 @@
+/* header section start start hear  */
+
+.main1>ul{
+    display: flex;
+    
+}
+.main1>ul>li{
+    list-style: none;
+    font-size: 20px;
+    
+}
+.main1>ul>li>a{
+    padding-left: 15px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+
+
+    
+}
+.logo{
+    font-size: 30px;
+    padding-left: 40px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+.main1.main2{
+    display: flex;
+    align-items: center;
+}
+nav>ul>li .Sign{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+}
+nav>ul>li .sing-in{
+    background-color: #007BFF;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+   text-align: center;
+   padding: 10px 15px;
+}
+/* header section end hear  */
+
+
+
+/*sign-in section Start form here*/
+.sing-in-section-main{
+    display: flex;
+    width: 80%;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 45px 10px;
+    gap: 40px;
+    height: 80vh;
+}
+.sing-in-contan{
+    width: 60%;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    background-color: rgb(238, 238, 238);
+    
+}
+.sing-in-contan>form>input{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.sing-in-contan>form>button{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 14px;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    cursor: pointer;
+}
+.sing-in-contan>form{
+    text-align: left;
+}
+.sing-in-contan{
+    width: 50%;
+}
+.sing-in-img{
+    width: 50%;
+}
+.sing-in-img>img{
+    border-radius: 65px 0px 65px 0px;
+    height: 100%;
+    width: 100%;
+    flex: 1;
+}
+
+.end-sign-in>div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+     margin-top: 10px;
+     font-size: 14px;
+     align-items: center;
+}
+.end-sign-in>div>label{
+    padding-right: 278px;
+}.end-sign-in>div>a{
+    text-decoration: none;
+    color: #5858EE;
+    font-size: 14px;
+}
+.end-sign-in{
+    margin-top: 15px;
+    text-align: center;
+}
+.end-sign-in>p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.end-sign-in>p>a{
+    text-decoration-line: none;
+    font-size: 18px;
+    color: #4facfe;
+}
+/*sign-in section End form here*/
+
+
+
+
+/* futer section start hear  */
+
+.footer {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 30px 20px;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h3, .footer-section h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding-left: 3px;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a img {
+    width: 24px;
+    margin-right: 8px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #555;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    display: none;
+    border-radius: 5px;
+}
+
+#backToTop:hover {
+    background: #555;
+}
+/* futer section end hear  */

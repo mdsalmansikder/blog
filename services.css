@@ -1,0 +1,659 @@
+/* header section start start hear  */
+body {
+    margin: 0px;
+}
+
+.main1>ul {
+    display: flex;
+
+}
+
+.main1>ul>li {
+    list-style: none;
+    font-size: 20px;
+
+}
+
+.main1>ul>li>a {
+    padding-left: 15px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+
+
+
+}
+
+.logo {
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.main1.main2 {
+    display: flex;
+    align-items: center;
+}
+
+nav>ul>li .Sign {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+}
+
+nav>ul>li .sing-in {
+    background-color: #007BFF;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 15px;
+}
+
+/* header section end hear  */
+
+/* hero section start hear */
+.hero-main {
+    background-image: url(img/rooftop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+}
+
+.main-hero>h1 span {
+    color: red;
+}
+
+.main-hero>h1 {
+    font-size: 55px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.main-hero>p {
+
+    color: white;
+    font-size: 18px;
+}
+
+.main-hero>button {
+
+    background-image: url(/img/explore-btn.svg);
+
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 12px 25px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.main-hero>button:hover {
+
+    background-color: #820606f0;
+    color: white;
+
+}
+
+.main-hero {
+    height: 300px;
+    width: 600px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: rgba(0, 0, 0, 0.274);
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+
+/* hero section end hear */
+
+/*   Main code Section start here  */
+
+.main2>h2 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.main2>h2>span {
+    color: red;
+}
+
+.main-cod {
+    display: flex;
+    padding: 100px 50px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.main2 {
+    width: 50%;
+    margin: 20px;
+}
+
+.main2>p {
+    width: 90%;
+    margin: 0px;
+
+
+}
+
+.mainimg {
+    width: 50%;
+    margin: 20px;
+}
+
+.mainimg>img {
+    width: 85%;
+    border-radius: 10px;
+
+    align-items: center;
+}
+
+.main2>p {
+
+    font-size: 17px;
+}
+
+.main2>button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.main2>button:hover {
+
+    background: rgba(150, 9, 9, 0.859);
+    color: rgb(247, 247, 247);
+    transition: background 0.3s;
+
+
+}
+
+/*   Main code Section End here  */
+
+/*  Content section Design Start here  */
+
+.sd2>h1>span {
+    color: red;
+}
+
+.sd2 {
+    text-align: center;
+}
+
+.sd2>h1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.sd2>p {
+    font-size: 17px;
+    width: 56%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    margin-top: 0px;
+}
+
+.coten01 {
+
+    width: 30%;
+    text-align: center;
+    padding: 25px 10px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.coten01:hover {
+
+    transform: translateY(-10px);
+
+}
+
+.coten01>h3 {
+
+    font-size: 20px;
+    font-weight: bold;
+    background: #f0f0f0;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.coten01>p {
+    padding: 20px 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.coten01>img {
+
+    width: 10%;
+}
+
+.coten01>button {
+
+
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.coten01>button:hover {
+
+
+    background: rgba(166, 6, 6, 0.894);
+    color: white;
+
+}
+
+.main-contan {
+    width: 90%;
+    display: flex;
+    padding: 50px 68px;
+    justify-content: space-around;
+}
+
+/*  Content section DesignEnd here  */
+
+/*  Build Section start hear  */
+
+.build-section {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.image-area {
+    width: 50%;
+    padding: 20px;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+.image-area img {
+    width: 50%;
+}
+
+.image-area #mainimg {
+    width: 75%;
+    border-radius: 10px;
+}
+
+.image-area #subimg {
+    width: 65%;
+    border-radius: 10px;
+    border: 2px solid white;
+    position: absolute;
+    left: 180px;
+    top: 170px;
+
+}
+
+.build-contan {
+    width: 50%;
+    padding: 20px;
+}
+
+.build-contan>h1>span {
+    color: #FF0000;
+}
+
+.build-contan>h1 {
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.div-card1 {
+    display: flex;
+}
+
+.sub-card1 {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.sub-card1>h3 {
+    padding: 0px 10px;
+}
+
+.sub-card1>h4 {
+    font-size: 15px;
+    color: #a7a7a7;
+}
+
+.build-contan>button {
+
+    margin-top: 20px;
+    padding: 16px 28px;
+    background: red;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.build-contan>button:hover {
+    background: rgb(138, 10, 10);
+    color: white;
+}
+
+/*  Build Section End hear  */
+
+/* roof section start hear */
+
+
+.roof-contan {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: flex-end;
+    width: 85%;
+    justify-content: space-between;
+}
+
+.roof-contan>h1>span {
+    color: red;
+}
+
+.roof-contan>h1 {
+    font-size: 45px;
+    width: 50%;
+}
+
+.roof-contan>p {
+    width: 40%;
+    text-align: right;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.roof-maincontan {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.content-img>p {
+    width: 90%;
+}
+
+.content-img {
+    width: 26%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+/* roof section End hear */
+
+/* left content  start hear */
+
+
+.left-conten {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.left1>h1 {
+    font-size: 45px;
+}
+
+.left1>p {
+    color: #555;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.box1>h5 {
+    padding-right: 15px;
+    font-size: 25px;
+
+}
+
+.box3 {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin-top: 20px;
+
+}
+
+.box3:hover {
+    transform: translateY(-5px);
+}
+
+.box1:hover {
+    transform: translateY(-5px);
+}
+
+.box3>h5 {
+    padding-right: 15px;
+    font-size: 25px;
+}
+
+.left1>h1>span {
+    color: rgb(211, 21, 21);
+}
+.left2{
+    background-color: #FFF6F6;
+    padding: 65px 25px;
+    border-radius: 10px;
+    margin: 0 auto;
+   margin-top: 35px;
+}
+.left2>form{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+   
+}
+.fast-name{
+    
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.last-name{
+    
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+}
+.email{
+    
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+}
+.phoneNumber{
+    
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+}
+.Message{
+    width: 95%;
+    padding: 10px;
+    height: 100px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.button1{
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.button1:hover{
+    background: rgba(153, 5, 5, 0.875);
+    
+}
+.left2>form>input{
+    padding: 10px 28px;
+    margin-bottom: 10px;
+    
+   
+}
+
+.left1 {
+    width: 40%;
+}
+
+.left2 {
+    width: 40%;
+}
+
+
+/* left content  end hear */
+
+/* futer section start hear  */
+
+.footer {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 30px 20px;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding-left: 3px;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a img {
+    width: 24px;
+    margin-right: 8px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #555;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    display: none;
+    border-radius: 5px;
+}
+
+#backToTop:hover {
+    background: #555;
+}
+
+/* futer section end hear  */

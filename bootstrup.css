@@ -1,0 +1,65 @@
+.r1h1{
+    color: #3366FE;
+}
+
+.boot>div{
+    background-color: aqua;
+    width: 500px;
+}
+
+.form-div{
+    background: url(img/farm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    margin: 0 auto;
+}
+form{
+    padding: 20px;
+    width: 50%;
+    background-color: rgba(232, 232, 232, 0.50);
+    backdrop-filter: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+h2{
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 45px !important;
+    font-weight: bold !important;
+}
+#btn{
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 25px !important;
+    color: white !important;
+    border-radius: 12px !important;
+}
+/*  bootstrap   nave bar start hear */
+.main-hero{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    background-color: aqua;
+    padding:0 40px ;
+}
+.min-img>img{
+    width:10% ;
+}
+
+.main-contan>ul{
+    display: flex;
+    
+    
+}
+.main-contan>ul>li{
+   padding: 0px 10px;
+   list-style: none;
+   align-items: center;
+   font-size: 18px;
+    
+}
