@@ -168,7 +168,7 @@ body{
   /* Hero section start from here */
 
   .hero-section{
-    background-image: url(/img/farm.jpg);
+    background-image: url(img/farm.jpg);
     height: 80vh;
     position: relative;
     background-size: cover;
