@@ -86,8 +86,7 @@ nav>ul>li .sing-in {
 
 .main-hero>button {
 
-    background-image: url(/img/explore-btn.svg);
-
+    background-image: url(img/explore-btn.svg);
     color: white;
     font-size: 18px;
     cursor: pointer;
